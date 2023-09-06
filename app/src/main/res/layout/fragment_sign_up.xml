@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SignUpFragment"
+    tools:context=".ui.signup.SignUpFragment">
+
+    <TextView
+        android:id="@+id/SignUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/sign_up"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="66dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="101dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="411dp"
+            android:layout_height="59dp"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:lines="1"
+            tools:ignore="MissingConstraints" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTextInputLayout"
+        android:layout_width="338dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_40"
+        app:counterEnabled="true"
+        app:counterMaxLength="16"
+        app:helperTextEnabled="false"
+        app:helperTextTextColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="195dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="405dp"
+        android:layout_height="56dp"
+        android:hint="@string/signin_password"
+        android:inputType="textPersonName"
+        android:lines="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmpasswordTextInputLayout"
+        android:layout_width="381dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/dp_40"
+        app:counterEnabled="true"
+        app:counterMaxLength="16"
+        app:helperTextEnabled="false"
+        app:helperTextTextColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordTextInputLayout"
+        app:passwordToggleEnabled="true">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confirmpasswordEditText"
+        android:layout_width="407dp"
+        android:layout_height="72dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPersonName"
+        android:lines="1"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sigUpButton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/startbutton"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/sign_up_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/confirmpasswordTextInputLayout" />
+
+    <TextView
+        android:id="@+id/goToSignInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_16"
+        android:text="@string/if_you_have_an_account_go_to_log_in"
+        android:textAlignment="center"
+        android:textColor="#7C5F0A"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sigUpButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
