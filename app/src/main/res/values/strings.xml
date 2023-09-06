@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">HarryPotterQuizApp</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="signin_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="if_you_have_an_account_go_to_log_in">If you have an account go to log in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password_signin">Password</string>
+    <string name="if_there_is_no_account_then_register">If there is no account, then Register</string>
+    <string name="invalid_email_address" />
+    <string name="must_be_8_to_16_characters" />
+    <string name="must_contain_1_uppercase_character" />
+    <string name="email_required" />
+    <string name="password_required" />
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_of_total" />
+    <string name="must_be_6_to_10_characters" />
+    <string name="welcome_to_harry_potter_quiz">Welcome to Harry Potter Quiz</string>
 </resources>
