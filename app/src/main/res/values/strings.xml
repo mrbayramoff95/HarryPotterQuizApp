@@ -19,4 +19,9 @@
     <string name="number_of_total" />
     <string name="must_be_6_to_10_characters" />
     <string name="welcome_to_harry_potter_quiz">Welcome to Harry Potter Quiz</string>
+    <string name="welcome_to_quiz">Welcome to Quiz</string>
+    <string name="okay_dear_harry_potter_fan_let_s_start_our_quiz">Okay dear Harry Potter fan, let\'s Start our quiz!</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="quiz_results">Quiz Results</string>
+    <string name="your_score">Your Score:</string>
 </resources>
