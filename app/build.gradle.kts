@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.harrypotterquizapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.harrypotterquizapp"
@@ -61,6 +61,9 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("androidx.room:room-common:2.5.2")
     implementation("com.google.dagger:hilt-android:2.44")
+    implementation("androidx.work:work-runtime-ktx:2.8.1")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.2")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.2")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
