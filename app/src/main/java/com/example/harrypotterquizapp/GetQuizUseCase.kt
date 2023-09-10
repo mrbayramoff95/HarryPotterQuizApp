@@ -7,7 +7,6 @@ import com.example.harrypotterquizapp.repository.QuizDBRepository
 import com.example.harrypotterquizapp.repository.QuizRepository
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.internal.NopCollector.emit
 import java.util.Date
 
 @AndroidEntryPoint
